@@ -15,7 +15,7 @@ def button_click(number):
     e.delete(0, END)
     e.insert(0, str(current) + str(number))
 
-    
+  
 def button_clear():
     e.delete(0, END)
 
